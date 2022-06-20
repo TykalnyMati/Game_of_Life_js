@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Of Life</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body onload="onload()">
+    <div id="controls">
+        <button onclick="start()">Start</button>
+        <button onclick="fill_with_random()">Randomise</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="clean()">Clean</button>
+    </div>
+    <div id="display">
+        <div id="container">
+            <canvas id="canvas" width="1024" height="1024"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>
